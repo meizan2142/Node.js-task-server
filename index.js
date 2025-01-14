@@ -6,7 +6,7 @@ const app = express()
 require('dotenv').config()
 
 const corsOptions = {
-  origin: ['http://localhost:5173'],
+  origin: ['http://localhost:5173', 'https://wondrous-treacle-a17f31.netlify.app'],
   credentials: true,
   optionSuccessStatus: 200
 }
