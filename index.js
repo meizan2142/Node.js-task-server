@@ -63,8 +63,6 @@ async function run() {
       }
     });
   } finally {
-    console.log('yaap!');
-
   }
 }
 run().catch(console.dir);
